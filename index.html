@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesForce</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Salesforce Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0176d3;
+        }
+        .side-headings {
+            list-style: none;
+            display: flex;
+        }
+        .side-headings li {
+            padding: 0 1rem;
+        }
+        .side-headings a {
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #0176d3 0%, #04a9f4 100%);
+            color: #fff;
+            padding: 8rem 0 4rem;
+            text-align: center;
+         } 
+         .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #0176d3;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .aim{ padding: 4rem 0;
+            background: #f4f4f4;
+        }
+        .aim h2{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .aim p{font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: #f4f4f4;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        .feature {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #0176d3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 2rem 0;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+        .footer-section h4 {
+            margin-bottom: 1rem;
+        }
+        .footer-section ul {
+            list-style: none;
+        }
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+        .footer-section ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #555;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+        </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="main">Salesforce</div>
+        <ul class="side-headings">
+            <li><a href="#products">Products</a></li>
+             <li><a href="#industries">Industries</a></li>
+              <li><a href="customers">Customers</a></li>
+               <li><a href="#support">Support</a></li>
+              <li><a href="#company">Company</a></li>
+            <li><a href="#saleforce+">Salesforce+</a></li>
+          </ul>
+    </nav>
+   </header> 
+   <main>
+    <section class="hero">
+        <h1>Try Salesforce Starter Suite for free.</h1>
+        <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+        <a href="#" class="cta-button">Start Free Trial</a> 
+        <a href="#" class="cta-button">Watch Demo</a>
+    </section>
+    <section class="aim">
+        <h2>We bring companies and customers together</h2>
+        <p>Salesforce is the world’s most trusted customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.
+
+        </p>
+        <a href="#" class="cta-button">Start Free Trial</a> 
+        <a href="#" class="cta-button">Watch Demo</a>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2>Explore our products</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="/api/placeholder/80/80" alt="Small Business">
+                        <h3> Small Business</h3>
+                        <p>Sales, service, and email outreach tools in a single app</p> 
+
+                    </div>
+                    <div class="feature-card">
+                        <img src="/api/placeholder/80/80" alt="Sales Cloud">
+                        <h3>Sales Cloud</h3>
+                        <p>Close more deals and speed up growth with the #1 CRM.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/api/placeholder/80/80" alt="Service Cloud">
+                        <h3>Service Cloud</h3>
+                        <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/api/placeholder/80/80" alt="Marketing Cloud">
+                        <h3>Marketing Cloud</h3>
+                        <p>Build customer relationships for life with data-first digital marketing.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+   </main>
+   <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>New to Salesforce?</h4>
+                <ul>
+                    <li><a href="#">why salesforce</a></li>
+                    <li><a href="#">what is CRM</a></li>
+                    <li><a href="#">Explore our products</a></li>
+                    <li><a href="#">SaaS</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Product Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About Salesforce</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Security and Performence</a></li>
+                    <li><a href="#">Salesforce.org</a></li>
+                    <li><a href="#">Best CRM Software</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Give us your Feedback</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Popular Links</h4>
+                <ul>
+                    <li><a href="#">Nes Release Features</a></li>
+                    <li><a href="#">Salesforce Mobile App</a></li>
+                    <li><a href="#">Business App Store</a></li>
+                    <li><a href="#">Dreamforce</a></li>
+                    <li><a href="#">CRM Software</a></li>
+                    <li><a href="#">Salesforce Plus</a></li>
+                    <li><a href="#">Salesforce for startupse</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Salesforce, Inc. <a href="#" >All rights reserved</a>.Various trademarks held by their respective owners.</p>
+            </div>
+</div>
+</footer>
+</body>
+</html>
